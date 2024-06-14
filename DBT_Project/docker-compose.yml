@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: dbt_postgres
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: new_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+  dbt:
+    image: python:3.9-slim
+    container_name: dbt_python
+    environment:
+      DBT_PROFILES_DIR: /dbt
+    volumes:
+      - .:/dbt
+      - ./dbt_project:/dbt_project
+      - ./init_db:/init_db
+    working_dir: /init_db
+    depends_on:
+      - postgres
+    command: ["sh", "-c", "pip install dbt==0.19.2 && tail -f /dev/null"]
+
+volumes:
+  postgres_data:
+

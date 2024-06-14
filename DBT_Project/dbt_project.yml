@@ -1,0 +1,36 @@
+name: 'dbt_project'
+version: '1.0'
+config-version: 2
+
+profile: 'dbt_dskola_profile'
+
+# Lokasi model
+model-paths: ["models"]
+
+# Target output
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages" 
+
+# Konfigurasi model
+models:
+  dbt_project:
+    marts:
+      +materialized: table
+    staging:
+      +materialized: table
+    warehouse:
+      +materialized: table
+
+# Konfigurasi packages
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 0.8.6
+
+# Konfigurasi hooks
+on-run-start: []
+on-run-end: []
+
+# Konfigurasi vars
+vars: {}

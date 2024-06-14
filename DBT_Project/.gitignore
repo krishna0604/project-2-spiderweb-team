@@ -1,0 +1,54 @@
+# Direktori build
+/target/
+
+# File konfigurasi lokal
+profiles.yml
+dbt_project.yml
+
+# Direktori virtual environment
+/venv/
+
+# Abaikan file sementara dan cache dari editor
+.idea/
+.vscode/
+*.swp
+
+# Abaikan file log
+*.log
+
+# Abaikan file sementara dan cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Abaikan virtual environment dan file lingkungan
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+
+# Abaikan direktori build dan distribusi
+build/
+dist/
+
+# Abaikan direktori target DBT
+target/
+
+# Abaikan file hasil dokumentasi
+dbt_modules/
+
+# Abaikan konfigurasi dan kredensial DBT
+profiles.yml
+profiles.d/
+*profiles.yml
+
+# Abaikan file database SQLite (jika menggunakan)
+*.db
+*.sqlite
+
+# Abaikan konfigurasi database
+*.dbt
