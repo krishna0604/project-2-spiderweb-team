@@ -11,13 +11,14 @@ Selamat datang, kami sudah menyelesaikan berbagai problem bisnis berupa mini pro
 3. hermawan Adi Prasetyo - adiprasetyohermawan - adiprasetyohermawan00@gmail.com
 4. Humairoh - humairoh22 - humairohhumay@yahoo.co.id
 5. I Putu Ferry Wistika - putuwistika - 12820001@mahasiswa.itb.ac.id
+6. Fenny Inriana 
 
 <h2> Daftar Isi : </h2>  
-1. Tahap Pertama : Membuat raw data dan memasukkan raw data tersebut menggunakan Python
-2. Tahap Kedua : Membuat data warehousenya
-3. Tahap Ketiga : Membuat Datamart dengan 3 Business Requirements
+1. <b>Tahap Pertama</b> : Membuat raw data dan memasukkan raw data tersebut menggunakan Python
+2. <b>Tahap Kedua</b> : Membuat data warehousenya
+3. <b>Tahap Ketiga</b> : Membuat Datamart dengan 3 Business Requirements
    a. Membuat tabel marts_monthly_supplier_gross_revenue sebagai gross revenue yang dihasilkan supplier setiap bulan
    b. Membuat tabel marts_monthly_category_sold sebagai tabel kategori produk paling banyak terjual setiap bulan
    c. Membuat tabel marts_monthly_best_employee sebagai total gross revenue yang dihasilkan employee dalam satu bulan
-4. Tahap Keempat : Running semua file Python, Postgre, DBt menggunaan docker dengan memisahkan imagenya
+4. <b>Tahap Keempat</b> : Running semua file Python, Postgre, DBt menggunaan docker dengan memisahkan imagenya
 
