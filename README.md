@@ -11,7 +11,7 @@ Selamat datang, kami sudah menyelesaikan berbagai problem bisnis berupa mini pro
 3. hermawan Adi Prasetyo - adiprasetyohermawan - adiprasetyohermawan00@gmail.com
 4. Humairoh - humairoh22 - humairohhumay@yahoo.co.id
 5. I Putu Ferry Wistika - putuwistika - 12820001@mahasiswa.itb.ac.id
-6. Fenny Inriana 
+6. Fenny Inriana - Fennyinriana
 
 <h2> Tahap Pengerjaan : </h2>  
 1. <b>Tahap Pertama</b> : Membuat raw data dan memasukkan raw data tersebut menggunakan Python
