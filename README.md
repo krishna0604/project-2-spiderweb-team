@@ -13,7 +13,7 @@ Selamat datang, kami sudah menyelesaikan berbagai problem bisnis berupa mini pro
 5. I Putu Ferry Wistika - putuwistika - 12820001@mahasiswa.itb.ac.id
 6. Fenny Inriana 
 
-<h2> Daftar Isi : </h2>  
+<h2> Tahap Pengerjaan : </h2>  
 1. <b>Tahap Pertama</b> : Membuat raw data dan memasukkan raw data tersebut menggunakan Python
 <br>
 2. <b>Tahap Kedua</b> : Membuat data warehousenya
